@@ -14,6 +14,7 @@ struct AddBookView: View {
     let genres = ["Fantacy", "Horror", "Kids", "Mystery", "Poetry", "Romance", "Thriller"]
     
     @State private var addBookViewModel = AddBookViewModel()
+//    @State private var rating = 4
     
     var body: some View {
         NavigationView {
@@ -30,11 +31,8 @@ struct AddBookView: View {
                 }
                 
                 Section {
-                    Picker("Rating", selection: self.$addBookViewModel.rating) {
-                        ForEach(0..<6) {rate in
-                            Text("\(rate)")
-                        }
-                    }
+                    
+                    RatingView(rating: self.$addBookViewModel.rating)
                     
                     TextField("Write a review", text: self.$addBookViewModel.review)
                     

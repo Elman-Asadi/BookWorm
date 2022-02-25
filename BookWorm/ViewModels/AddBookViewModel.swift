@@ -15,7 +15,7 @@ class AddBookViewModel {
     var author : String = ""
     var review : String = ""
     var id : UUID = UUID()
-    var rating : Int = 0
+    var rating : Int = 2
     
     func saveBook() {
         CoreDataManager.shared.addBook(title: title, genre: genre, author: author, review: review, rating: rating, id: id)

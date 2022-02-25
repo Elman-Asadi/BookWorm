@@ -15,7 +15,6 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-            //            Text("Count: \(self.bookListVM.books.count)")
             
             List {
                 ForEach(bookListVM.books, id: \.id) { book in

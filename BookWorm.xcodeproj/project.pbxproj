@@ -17,6 +17,7 @@
 		8516AF7526EE1781003BA1CE /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516AF7426EE1781003BA1CE /* AddBookView.swift */; };
 		8516AF7B26EE1894003BA1CE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516AF7A26EE1894003BA1CE /* CoreDataManager.swift */; };
 		8516AF7D26EE1900003BA1CE /* AddBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516AF7C26EE1900003BA1CE /* AddBookViewModel.swift */; };
+		8545077726F07C5E006190EB /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8545077626F07C5E006190EB /* RatingView.swift */; };
 		8559515526EF2A0600387699 /* NSMangedObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559515426EF2A0600387699 /* NSMangedObjectExtension.swift */; };
 		8559515726EF4DED00387699 /* BookListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559515626EF4DED00387699 /* BookListViewModel.swift */; };
 		8559515926EF6D3E00387699 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559515826EF6D3E00387699 /* BookViewModel.swift */; };
@@ -35,6 +36,7 @@
 		8516AF7426EE1781003BA1CE /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		8516AF7A26EE1894003BA1CE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		8516AF7C26EE1900003BA1CE /* AddBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewModel.swift; sourceTree = "<group>"; };
+		8545077626F07C5E006190EB /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		8559515426EF2A0600387699 /* NSMangedObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMangedObjectExtension.swift; sourceTree = "<group>"; };
 		8559515626EF4DED00387699 /* BookListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewModel.swift; sourceTree = "<group>"; };
 		8559515826EF6D3E00387699 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				8516AF7426EE1781003BA1CE /* AddBookView.swift */,
 				8516AF6126EE1686003BA1CE /* ContentView.swift */,
+				8545077626F07C5E006190EB /* RatingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8545077726F07C5E006190EB /* RatingView.swift in Sources */,
 				8516AF7B26EE1894003BA1CE /* CoreDataManager.swift in Sources */,
 				8559515526EF2A0600387699 /* NSMangedObjectExtension.swift in Sources */,
 				8516AF7D26EE1900003BA1CE /* AddBookViewModel.swift in Sources */,
